@@ -1,0 +1,23 @@
+{
+  "name": "static_es5_es6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+	"type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel ./src --out-dir ./build --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/plugin-transform-runtime": "^7.14.3",
+    "@babel/preset-env": "^7.14.2"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.14.3",
+    "babel-cli": "^6.26.0"
+  }
+}
